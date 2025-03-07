@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rive Animation</title>
+    <!-- Include the Rive JavaScript library -->
+    <script src="https://cdn.rive.app/rive.min.js"></script>
+</head>
+<body>
+    <!-- Container for the Rive Animation -->
+    <div id="rive-container"></div>
+
+    <script>
+        // Create a new Rive instance
+        const rive = new rive.Rive({
+            src: "C:\Users\ridhi\Downloads\xceed.riv",  // path to the .riv file
+            canvas: document.getElementById('rive-container'),  // where to display the animation
+            autoplay: true,  // automatically play the animation
+        });
+    </script>
+</body>
+</html>
